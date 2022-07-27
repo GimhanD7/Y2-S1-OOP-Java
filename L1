@@ -9,7 +9,7 @@ class Main {
     
     
     System.out.println("Enter the Length = " );
-  length = No.nextInt();
+    length = No.nextInt();
     
     System.out.println("Enter the Width =" );
     width = No.nextInt();
