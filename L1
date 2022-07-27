@@ -1,0 +1,21 @@
+import java.util.*;
+class Main {
+  
+  public static void main(String[] args) 
+  {
+    int length,width,ans;
+    Scanner No = new Scanner(System.in);
+
+    
+    
+    System.out.println("Enter the Length = " );
+  length = No.nextInt();
+    
+    System.out.println("Enter the Width =" );
+    width = No.nextInt();
+
+    ans = (width*2)+(length*2);
+    System.out.println("Perimeter =" + ans);
+  
+}
+}
